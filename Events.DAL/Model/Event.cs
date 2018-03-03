@@ -34,6 +34,12 @@ namespace Events.DAL.Model
         [Required]
         public int EnvironmentsAmmount { get; set; }
 
+        [Required]  
+        public int MaxTickets { get; set; }
+        
+        [Required]
+        public int TicketsSold { get; set; }
+
         [Required]
         [JsonIgnore]
         public int IdAgeRange { get; set; }
